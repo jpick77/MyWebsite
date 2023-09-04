@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jacob Pickron Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <img src="/assets/img/letter-j.png" />
+      <img src="/assets/img/full-stop.png" />
+      <img src="/assets/img/letter-p.png" />
+    </nav>
+    <div class="overlay"></div>
+    <button class="burger" onclick="toggleMenu()">
+      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-close"></i>
+    </button>
+    <aside>
+        
+        <a href="#home-header">
+            <li class="item">Home</li>
+        </a>
+        <a href="#home-about">
+            <li class="item">About</li>
+        </a>
+        <a href="#home-work">
+            <li class="item">Work</li>
+        </a>
+        <a href="#home-contact">
+            <li class="item">Contact</li>
+        </a>
+        <br>
+
+        </br>
+        <a href="tel:2817948281">
+            <li class="item alt">281-794-8281</li>
+        </a>
+        <a href="mailto:jpickron30@gmail.com">
+            <li class="item alt">jpickron30@gmail.com</li>
+        </a>
+        <br>
+
+    </br>
+      <div class="menu-logo">
+            <img src="/assets/img/letter-j.png" alt="jpl">
+            <img src="/assets/img/full-stop.png" alt="jpl">
+            <img src="/assets/img/letter-p.png" alt="jpl">
+        </div>
+    </aside>
+    <!--HEADER/LANDING PAGE-->
+    <section id="home-header" class="home-header">
+        <!--TOP CORNER CURSIVE LOGO AND BORDER LINES-->
+        <div class="logo-area">
+            <div class="row-one">
+                <img src="/static/main/img/icons/logo.svg" alt="jp-logo" class="logo">
+                <div class="horizontal-line-white"></div>
+            </div>
+            <div class="row-two">
+                <div class="vertical-white-line"></div>
+            </div>
+        </div>
+        <!--HEADSHOT IMAGE BOX-->
+        <div class="img-box" id="header-img">
+            <img src="/assets/img/Untitled (2).png" alt="jp-front-end-web-developer">
+        </div>
+        <!--WHITE COLORED BACKGROUND CTA SIDE-->
+        <div class="info-side">
+            <!--FIXED NAV AREA-->
+            <div class="text-area">
+                <h2 class="standout" id="header-standout">Howdy, I'm Jacob Pickron.</h2>
+                <h3 class="subtext" id="header-sub">I Build Modern and Responsive Websites.</h3>
+                <a href="#home-contact" class="ctaLink" id="header-primary-link">
+                    <p>Let's Get To Work!</p>
+                </a>
+                <div class="alt-links" id="header-sub-links">
+                    <a href="https://github.com/jpick77" target="_blank">
+                        <div class="img-area" target="_blank">
+                            <i class="fa-brands fa-github" style="color: #edf104;"></i>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jacobpickron/" target="_blank">
+                        <div class="img-area">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </a>
+                    <a href="/assets/img/Jacob Pickron Resume July.pdf" target="_blank">
+                        <div class="img-area">
+                            <i class="fa-regular fa-pen-to-square"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script type="text/javascript">
+      const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+  </body>
+</html>
